@@ -1,15 +1,15 @@
 # Go 编译产物
 mygo
-mygo-*
+/mygo-*
 *.exe
 
-# 分发的二进制文件（保留 README 和脚本）
-dist/*.tar.gz
-dist/*.zip
-dist/checksums.sha256
+# 分发的二进制文件（现在允许上传到仓库）
+# dist/*.tar.gz
+# dist/*.zip
+# dist/checksums.sha256
 
 # Go 安装包
-*.tar.gz
+go*.tar.gz
 go*.linux-*.tar.gz
 
 # 临时文件
